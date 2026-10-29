@@ -17,6 +17,13 @@ until the real brand kit arrives). Logo files go in `assets/brand/`.
 
 Studied: not yet. Using the playbook's "House reel style" as the baseline.
 
+Baseline check (2026-10-29): `study-reference` on the four finished videos in
+Nate's public kit measured a median shot of 1.29 s (p90 2.33 s), 42 cuts per
+minute, speech from frame 0, and -14 LUFS with true peak -1.35 dBFS, matching the
+playbook. Contact sheets confirm the look: split layout with B-roll on top, boxed
+all-caps captions with one coloured keyword and a serif accent word, full-screen
+screen recordings with a visible cursor, labelled AI video, and punch-ins.
+
 | Measure | Value | Source |
 | --- | --- | --- |
 | Speech starts | within 0.1 s | baseline |
