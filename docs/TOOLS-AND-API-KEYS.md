@@ -13,6 +13,7 @@ edit. Bring your own accounts and credits, and configure only what you use.
 | HyperFrames and GSAP | Video compositions and animation | Installed by `npm ci`. Rendering runs locally. Some templates use online fonts or CDNs; localize selected assets for final rendering. |
 | ElevenLabs Scribe | Studio default for speech transcription | Your own key with `speech_to_text` access and available usage. The included helper sends audio to ElevenLabs. |
 | OpenAI Whisper API | Alternative cloud transcription | Your own OpenAI API key and API billing. Ask the assistant to configure the call and normalize its word timestamps. |
+| Local Parakeet (`scripts/transcribe-local.py`) | Free offline transcription with word timestamps, no key | `pip install sherpa-onnx soundfile` and the Parakeet TDT 0.6B int8 model from the sherpa-onnx GitHub releases. Used when ElevenLabs or Hugging Face is unreachable. |
 | Local Whisper or whisper.cpp | Alternative transcription on your computer | Separate runtime and model installation. No cloud transcription key; needs model downloads, disk space, and local compute. |
 | Kie.ai | Optional generated moving B-roll, images, and other supported assets | Your own account, key, and credits. Existing footage and supplied assets can be used instead. |
 | Higgsfield (Claude connector) | Alternative to Kie.ai for AI video and image B-roll | Uses the Higgsfield connector already on the OGS Claude account. Every generation spends credits and needs explicit approval first. |
